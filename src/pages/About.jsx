@@ -1,11 +1,10 @@
-
 import { Link } from "react-router-dom";
 
 function About() {
   return (
     <main dir="rtl" className="bg-slate-50">
       {/* Hero */}
-      <section className="bg-[#3d2a1c] px-6 py-16 text-center text-white">
+      <section className="bg-secondary-700 px-6 py-16 text-center text-white">
         <div className="mx-auto max-w-4xl">
           <h1 className="mb-4 text-4xl font-bold md:text-5xl">من نحن</h1>
 
@@ -148,7 +147,6 @@ function About() {
             نؤمن بأن التغيير يبدأ بخطوة، وبأن تعاوننا معًا يمكن أن يصنع أثرًا
             إيجابيًا في المجتمع.
           </p>
-
 
           <Link
             to="/contact"
